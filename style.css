@@ -13,7 +13,6 @@ body {
 h1 {
   font-size: 150px;
   font-family: snowinter;
-  text-align: center;
   text-shadow: 3px 4px #a81817;
   letter-spacing: 8px;
 }
@@ -21,7 +20,6 @@ h1 {
 h2 {
   font-size: 120px;
   font-family: snowinter;
-  text-align: center;
   text-shadow: 3px 4px #a81817;
   letter-spacing: 5px;
 }
@@ -44,7 +42,6 @@ a:hover {
   text-decoration: none;
   color: #fac57d;
   font-size: 56px;
-  text-shadow: 1px 1px #f0f4f7;
 }
 
 @font-face {
