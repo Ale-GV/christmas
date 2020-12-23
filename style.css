@@ -24,6 +24,7 @@ h2 {
 h3 {
   font-size: 55px;
   font-family: christmaswish;
+  font-weight: lighter;
   animation-name: fadeIn;
   animation-duration: 5s;
 }
