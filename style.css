@@ -1,0 +1,30 @@
+body {
+  color: #f0f4f7;
+  font-size: 20px;
+  text-shadow: 1.5px 2px #a81817;
+  background-color: #344d2f;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: snowinter;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: snowinter;
+  text-align: center;
+}
+
+@font-face {
+  font-family: snowinter;
+  src: url(snowinter.otf);
+}
+
+@font-face {
+  font-family: christmaswish;
+  src: url(christmaswish.otf);
+}
