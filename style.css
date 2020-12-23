@@ -5,23 +5,20 @@ body {
   background-repeat: repeat;
   font-family: christmaswish;
   text-align: center;
-  margin-left: -100%;
-  margin-right: -100%;
-  white-space: nowrap;
 }
 
 h1 {
-  font-size: 150px;
+  font-size: 20vw;
   font-family: snowinter;
   text-shadow: 3px 4px #a81817;
   letter-spacing: 8px;
 }
 
 h2 {
-  font-size: 120px;
+  font-size: 12vw;
   font-family: snowinter;
   text-shadow: 3px 4px #a81817;
-  letter-spacing: 5px;
+  letter-spacing: 7px;
 }
 
 p {
