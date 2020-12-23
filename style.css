@@ -21,8 +21,11 @@ h2 {
   letter-spacing: 7px;
 }
 
-p {
-  text-align: center;
+h3 {
+  font-size: 55px;
+  font-family: christmaswish;
+  animation-name: fadeIn;
+  animation-duration: 5s;
 }
 
 a:link {
@@ -49,4 +52,13 @@ a:hover {
 @font-face {
   font-family: christmaswish;
   src: url(christmaswish.otf);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
