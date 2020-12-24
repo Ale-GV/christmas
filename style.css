@@ -37,6 +37,11 @@ section {
   font-size: 35px;
 }
 
+p {
+  font-size: 22px;
+  font-family: bebas;
+}
+
 a:link {
   text-decoration: none;
   color: #f0f4f7;
@@ -61,6 +66,11 @@ a:hover {
 @font-face {
   font-family: christmaswish;
   src: url(christmaswish.otf);
+}
+
+@font-face {
+  font-family: bebas;
+  src: url(bebas.otf);
 }
 
 @keyframes fadeIn {
@@ -251,10 +261,23 @@ input#hide {
 span#content {
   display: none;
 }
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
 input#show:checked ~ span#content {
   display: block;
 }
 
 input#hide:checked ~ span#content {
   display: none;
+}
+
+.left-text {
+  text-align: left;
+  font-family: bebas;
+  font-size: 18px;
 }
