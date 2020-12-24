@@ -529,26 +529,30 @@ span:hover {
   /*opacity: 0;*/
   margin: 30px auto 0;
   display: block;
-  width: 300px;
-  height: 40px;
-  font-size: 30px;
+  width: 400px;
+  height: 80px;
+  font-size: 35px;
+  font-family: bebas;
+  letter-spacing: 1px;
   text-align: center;
-  background: #fff;
+  background: #c8beb9;
   border-radius: 6px;
-  color: #black;
+  color: #344d2f;
   transition: 1s linear;
 }
 
 #button {
-  background: #0b7fba;
+  background: #a81817;
   border: 0;
-  color: #fff;
+  color: #c8beb9;
   font-size: 20px;
+  font-family: bebas;
+  letter-spacing: 1px;
   padding: 1em 2em;
   cursor: pointer;
   margin: 0 auto 60px;
   display: block;
   text-align: center;
   border-radius: 6px;
-  font-weight: bold;
+  font-weight: normal;
 }

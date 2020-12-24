@@ -1,4 +1,4 @@
-var NumberOfWords = 42;
+var NumberOfWords = 50;
 
 var words = new BuildArray(NumberOfWords);
 
@@ -6,7 +6,7 @@ var words = new BuildArray(NumberOfWords);
 // define your random words:
 words[1] = "Christmas Tree";
 words[2] = "Gingerbread Cookie";
-words[3] = "Poinsetta";
+words[3] = "Poinsettia";
 words[4] = "Santa Claus";
 words[5] = "Frosty the Snowman";
 words[6] = "Presents";
@@ -46,6 +46,14 @@ words[39] = "Shopping";
 words[40] = "Toy Soldier";
 words[41] = "Charlie Brown";
 words[42] = "Mall Santa";
+words[43] = "Opening Gifts";
+words[44] = "Chimney";
+words[45] = "Snowflakes";
+words[46] = "Ugly Sweater";
+words[47] = "5 Golden Rings";
+words[48] = "Turkey";
+words[49] = "Mrs. Claus";
+words[50] = "Wreath";
 
 function BuildArray(size) {
   this.length = size;
