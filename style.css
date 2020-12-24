@@ -254,12 +254,12 @@ a:hover {
     -1px 0px 2px rgba(255, 255, 255, 0);
 }
 
-input#show,
-input#hide {
+input#show-1,
+input#hide-1 {
   display: none;
 }
 
-span#content {
+span#content-1 {
   display: none;
 }
 
@@ -269,11 +269,333 @@ span:hover {
   color: #344d2f;
 }
 
-input#show:checked ~ span#content {
+input#show-1:checked ~ span#content-1 {
   display: block;
 }
 
-input#hide:checked ~ span#content {
+input#hide-1:checked ~ span#content-1 {
+  display: none;
+}
+
+input#show-2,
+input#hide-2 {
+  display: none;
+}
+
+span#content-2 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-2:checked ~ span#content-2 {
+  display: block;
+}
+
+input#hide-2:checked ~ span#content-2 {
+  display: none;
+}
+
+input#show-3,
+input#hide-3 {
+  display: none;
+}
+
+span#content-3 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-3:checked ~ span#content-3 {
+  display: block;
+}
+
+input#hide-3:checked ~ span#content-3 {
+  display: none;
+}
+
+input#show-4,
+input#hide-4 {
+  display: none;
+}
+
+span#content-4 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-4:checked ~ span#content-4 {
+  display: block;
+}
+
+input#hide-4:checked ~ span#content-4 {
+  display: none;
+}
+
+input#show-5,
+input#hide-5 {
+  display: none;
+}
+
+span#content-5 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-5:checked ~ span#content-5 {
+  display: block;
+}
+
+input#hide-5:checked ~ span#content-5 {
+  display: none;
+}
+
+input#show-6,
+input#hide-6 {
+  display: none;
+}
+
+span#content-6 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-6:checked ~ span#content-6 {
+  display: block;
+}
+
+input#hide-6:checked ~ span#content-6 {
+  display: none;
+}
+
+input#show-7,
+input#hide-7 {
+  display: none;
+}
+
+span#content-7 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-7:checked ~ span#content-7 {
+  display: block;
+}
+
+input#hide-7:checked ~ span#content-7 {
+  display: none;
+}
+
+input#show-8,
+input#hide-8 {
+  display: none;
+}
+
+span#content-8 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-8:checked ~ span#content-8 {
+  display: block;
+}
+
+input#hide-8:checked ~ span#content-8 {
+  display: none;
+}
+
+input#show-9,
+input#hide-9 {
+  display: none;
+}
+
+span#content-9 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-9:checked ~ span#content-9 {
+  display: block;
+}
+
+input#hide-9:checked ~ span#content-9 {
+  display: none;
+}
+
+input#show-10,
+input#hide-10 {
+  display: none;
+}
+
+span#content-10 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-10:checked ~ span#content-10 {
+  display: block;
+}
+
+input#hide-10:checked ~ span#content-10 {
+  display: none;
+}
+
+input#show-11,
+input#hide-11 {
+  display: none;
+}
+
+span#content-11 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-11:checked ~ span#content-11 {
+  display: block;
+}
+
+input#hide-11:checked ~ span#content-11 {
+  display: none;
+}
+
+input#show-12,
+input#hide-12 {
+  display: none;
+}
+
+span#content-12 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-12:checked ~ span#content-12 {
+  display: block;
+}
+
+input#hide-12:checked ~ span#content-12 {
+  display: none;
+}
+
+input#show-13,
+input#hide-13 {
+  display: none;
+}
+
+span#content-13 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-13:checked ~ span#content-13 {
+  display: block;
+}
+
+input#hide-13:checked ~ span#content-13 {
+  display: none;
+}
+
+input#show-14,
+input#hide-14 {
+  display: none;
+}
+
+span#content-14 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-14:checked ~ span#content-14 {
+  display: block;
+}
+
+input#hide-14:checked ~ span#content-14 {
+  display: none;
+}
+
+input#show-15,
+input#hide-15 {
+  display: none;
+}
+
+span#content-15 {
+  display: none;
+}
+
+span:hover {
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  color: #344d2f;
+}
+
+input#show-15:checked ~ span#content-15 {
+  display: block;
+}
+
+input#hide-15:checked ~ span#content-15 {
   display: none;
 }
 
