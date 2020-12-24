@@ -31,7 +31,8 @@ h3 {
 }
 
 section {
-  margin: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
   align-content: center;
   align-items: center;
   font-size: 35px;
@@ -137,7 +138,14 @@ a:hover {
 
 #carousel-1:checked ~ .control-1,
 #carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3 {
+#carousel-3:checked ~ .control-3,
+#carousel-4:checked ~ .control-4,
+#carousel-5:checked ~ .control-5,
+#carousel-6:checked ~ .control-6,
+#carousel-7:checked ~ .control-7,
+#carousel-8:checked ~ .control-8,
+#carousel-9:checked ~ .control-9,
+#carousel-10:checked ~ .control-10 {
   display: block;
 }
 
@@ -179,10 +187,45 @@ a:hover {
   ~ .carousel-indicators
   li:nth-child(2)
   .carousel-bullet,
-#carousel-3:checked
+#carousel-3.carousel-bullet
   ~ .control-3
   ~ .carousel-indicators
   li:nth-child(3)
+  .carousel-bullet,
+#carousel-4:checked
+  ~ .control-4
+  ~ .carousel-indicators
+  li:nth-child(4)
+  .carousel-bullet,
+#carousel-5:checked
+  ~ .control-5
+  ~ .carousel-indicators
+  li:nth-child(5)
+  .carousel-bullet,
+#carousel-6:checked
+  ~ .control-6
+  ~ .carousel-indicators
+  li:nth-child(6)
+  .carousel-bullet,
+#carousel-7.carousel-bullet
+  ~ .control-7
+  ~ .carousel-indicators
+  li:nth-child(7)
+  .carousel-bullet,
+#carousel-8:checked
+  ~ .control-8
+  ~ .carousel-indicators
+  li:nth-child(8)
+  .carousel-bullet,
+#carousel-9:checked
+  ~ .control-9
+  ~ .carousel-indicators
+  li:nth-child(9)
+  .carousel-bullet,
+#carousel-10:checked
+  ~ .control-10
+  ~ .carousel-indicators
+  li:nth-child(10)
   .carousel-bullet {
   color: #428bca;
 }
