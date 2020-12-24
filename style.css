@@ -70,14 +70,14 @@ a:hover {
 }
 
 .carousel {
-  position: relative;
   margin-top: 26px;
 }
 
 .carousel-inner {
   position: relative;
   overflow: hidden;
-  width: 90%;
+  align-content: center;
+  width: 100%;
 }
 
 .carousel-open:checked + .carousel-item {
@@ -95,7 +95,7 @@ a:hover {
 .carousel-item img {
   display: block;
   height: auto;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .carousel-control {
