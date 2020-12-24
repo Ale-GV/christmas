@@ -9,6 +9,20 @@
       console.log( "ready!" );
     });
     </script>
+    <script>
+        (function(name,path,ctx){ctx[name]=ctx[name]||{ready:function(fn){var h=document.getElementsByTagName('head')[0],s=document.createElement('script'),w=window,loaded;s.onload=s.onerror=s.onreadystatechange=function(){if((s.readyState&&!(/^c|loade/.test(s.readyState)))||loaded){return}s.onload=s.onreadystatechange=null;loaded=1;ctx[name].ready(fn)};s.async=1;s.src=path;h.parentNode.insertBefore(s,h)}}})
+        ('KeenTracking', 'https://cdn.jsdelivr.net/npm/keen-tracking@4/dist/keen-tracking.min.js', this);
+      
+        KeenTracking.ready(function(){
+          const client = new KeenTracking({
+            projectId: '5fe50793bef6fc3c4ada070f',
+            writeKey: '10373ac745d0c930ef4ed9c3fe0ede960590ba8c424edb3a89f13ed00191f1aeb5afb7bf7f4eb63e2c27d12e4dac20438ab258e7656a9bdb0297a8d83d3b1dcd25730a519aee036694dff2dde05d77fd91eaaf008935494499cf0eab70a07854'
+          });
+      
+          // Record events automatically
+          client.initAutoTracking();
+        });
+    </script>
   </head>
 
   <body>
