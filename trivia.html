@@ -11,45 +11,72 @@
       <h1>Holiday Trivia</h1>
     </div>
 
-    <section class="carousel" aria-label="Gallery">
-      <ul class="carousel__viewport">
-        <li id="carousel__slide1" class="carousel__slide" text="hello hello">
-          <div class="carousel__snapper">hellooooo</div>
-            <a href="#carousel__slide4" class="carousel__prev"></a>
-            <a href="#carousel__slide2" class="carousel__next"></a>
-        </li>
-        <li id="carousel__slide2" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide1" class="carousel__prev"></a>
-          <a href="#carousel__slide3" class="carousel__next"></a>
-        </li>
-        <li id="carousel__slide3" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide2" class="carousel__prev"></a>
-          <a href="#carousel__slide4" class="carousel__next"></a>
-        </li>
-        <li id="carousel__slide4" class="carousel__slide">
-          <div class="carousel__snapper"></div>
-          <a href="#carousel__slide3" class="carousel__prev"></a>
-          <a href="#carousel__slide1" class="carousel__next"></a>
-        </li>
-      </ol>
-      <aside class="carousel__navigation">
-        <ol class="carousel__navigation-list">
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide1" class="carousel__navigation-button"></a>
+    <div class="carousel">
+      <div class="carousel-inner">
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-1"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+          checked="checked"
+        />
+        <div class="carousel-item">
+          <img src="http://fakeimg.pl/2000x800/0079D8/fff/?text=Without" />
+        </div>
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-2"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+        />
+        <div class="carousel-item">
+          <img src="http://fakeimg.pl/2000x800/DA5930/fff/?text=JavaScript" />
+        </div>
+        <input
+          class="carousel-open"
+          type="radio"
+          id="carousel-3"
+          name="carousel"
+          aria-hidden="true"
+          hidden=""
+        />
+        <div class="carousel-item">
+          <img src="http://fakeimg.pl/2000x800/F90/fff/?text=Carousel" />
+        </div>
+        <label for="carousel-3" class="carousel-control prev control-1"
+          >‹</label
+        >
+        <label for="carousel-2" class="carousel-control next control-1"
+          >›</label
+        >
+        <label for="carousel-1" class="carousel-control prev control-2"
+          >‹</label
+        >
+        <label for="carousel-3" class="carousel-control next control-2"
+          >›</label
+        >
+        <label for="carousel-2" class="carousel-control prev control-3"
+          >‹</label
+        >
+        <label for="carousel-1" class="carousel-control next control-3"
+          >›</label
+        >
+        <ol class="carousel-indicators">
+          <li>
+            <label for="carousel-1" class="carousel-bullet">•</label>
           </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide2" class="carousel__navigation-button"></a>
+          <li>
+            <label for="carousel-2" class="carousel-bullet">•</label>
           </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide3" class="carousel__navigation-button"></a>
+          <li>
+            <label for="carousel-3" class="carousel-bullet">•</label>
           </li>
-          <li class="carousel__navigation-item">
-            <a href="#carousel__slide4" class="carousel__navigation-button"></a>
-          </li>
-        </ul>
-      </aside>
-    </section>
+        </ol>
+      </div>
+    </div>
   </body>
 </html>
