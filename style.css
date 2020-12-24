@@ -56,7 +56,8 @@ a:visited {
 a:hover {
   text-decoration: none;
   color: #fac57d;
-  font-size: 56px;
+  font-size: 7vw;
+  letter-spacing: 7px;
 }
 
 @font-face {
