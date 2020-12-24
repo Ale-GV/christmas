@@ -5,6 +5,7 @@ body {
   background-repeat: repeat;
   font-family: christmaswish;
   text-align: center;
+  overflow: scroll;
 }
 
 h1 {
@@ -71,7 +72,7 @@ a:hover {
 }
 
 .carousel {
-  margin-top: 26px;
+  margin-top: 5px;
 }
 
 .carousel-inner {
