@@ -29,6 +29,11 @@ h3 {
   animation-duration: 5s;
 }
 
+section {
+  padding: 150px;
+  vertical-align: middle;
+}
+
 a:link {
   text-decoration: none;
   color: #f0f4f7;
@@ -164,7 +169,6 @@ li {
   flex: 0 0 100%;
   width: 100%;
   background-color: #344d2f;
-  counter-increment: item;
 }
 
 .carousel__slide:nth-child(even) {
